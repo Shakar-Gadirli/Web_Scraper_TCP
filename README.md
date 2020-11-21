@@ -31,9 +31,8 @@ python3 web_scraper.py client -p [URL]
 ![client](client_exp_1.png)
 
 **Threading Example**
+
 Additionally, this app uses threading to serve several clients simultaneously. That means, while the server processes one client's request, it can accept connections and process other clients' requests. 
 ![server](server_thread.png)
-
 ![client](client_thread_1.png)
-
 ![client](client_thread_2.png)
